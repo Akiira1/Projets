@@ -1,0 +1,306 @@
+@media screen and (max-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    /* header */
+    header{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header>nav>ul>li>a>img{
+        width: 25px;
+    }
+    
+    header nav ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    header nav ul li a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 3px;
+    }
+    
+    header nav ul li a span{
+        margin-top: 5px;
+        font-size: 10px;
+        letter-spacing: 0.4px;
+    }
+    /* fin header */
+    
+    /* banner */
+    #banner{
+        background-color: darkslategray;
+        color: white;
+        padding: 50px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #banner>.col:first-child{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #banner>.col:last-child{
+        flex: 2;
+    }
+    
+    #banner>.col:last-child>h1{
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    #banner>.col:last-child>h1>span{
+        font-size: 20px;
+    }
+    /* fin banner */
+
+    /* eclosion */
+    #eclosion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #eclosion h2{
+        background-color: darkslategray;
+        color: white;
+        margin: 50px auto;
+        padding:  10px 40px;
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    
+    #eclosion>div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    #eclosion>div:first-of-type>div:first-of-type{
+        flex: 4;
+        display: flex;
+        justify-content: center;
+    }
+    #eclosion>div:first-of-type>div:last-of-type{
+        flex: 6;
+    }
+    
+    #eclosion>div:first-of-type>div:last-of-type>p{
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    
+    #eclosion>div:last-of-type{
+        width: 100%;
+        background-color: gainsboro;
+        padding: 50px 0;
+    }
+    
+    #eclosion>div:last-of-type ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    
+    #eclosion>div:last-of-type ul li{
+        flex: 25%;
+    }
+    
+    #eclosion>div:last-of-type ul li a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    
+    #eclosion>div:last-of-type ul li a img{
+        width: 40px;
+        margin-bottom: 10px;
+    }
+    /* fin eclosion */
+
+    /* evolution */
+    #evolution{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #evolution h2{
+        background-color: darkslategray;
+        color: white;
+        margin: 50px auto;
+        padding:  10px 40px;
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    
+    #evolution>div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    #evolution>div:first-of-type>div:first-of-type{
+        flex: 4;
+        display: flex;
+        justify-content: center;
+    }
+    #evolution>div:first-of-type>div:last-of-type{
+        flex: 6;
+    }
+    
+    #evolution>div:first-of-type>div:last-of-type>p{
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    
+    #evolution>div:last-of-type{
+        width: 100%;
+        background-color: gainsboro;
+        padding: 50px 0;
+    }
+    
+    #evolution>div:last-of-type ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    
+    #evolution>div:last-of-type ul li{
+        flex: 25%;
+    }
+    
+    #evolution>div:last-of-type ul li a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    
+    #evolution>div:last-of-type ul li a img{
+        width: 40px;
+        margin-bottom: 10px;
+    }
+    /* fin evolution */
+    
+    /* envol */
+    #envol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #envol h2{
+        background-color: darkslategray;
+        color: white;
+        margin: 50px auto;
+        padding:  10px 40px;
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    
+    #envol>div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    #envol>div:first-of-type>div:first-of-type{
+        flex: 4;
+        display: flex;
+        justify-content: center;
+    }
+    #envol>div:first-of-type>div:last-of-type{
+        flex: 6;
+    }
+    
+    #envol>div:first-of-type>div:last-of-type>p{
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    
+    #envol>div:last-of-type{
+        width: 100%;
+        background-color: gainsboro;
+        padding: 50px 0;
+    }
+    
+    #envol>div:last-of-type ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    
+    #envol>div:last-of-type ul li{
+        flex: 25%;
+    }
+    
+    #envol>div:last-of-type ul li a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    
+    #envol>div:last-of-type ul li a img{
+        width: 40px;
+        margin-bottom: 10px;
+    }
+    /* fin envol */
+
+    /* footer */
+    footer{
+        background-color: black;
+        color: white;
+        padding: 80px;
+        display: flex;
+        position: relative; 
+    }
+    
+    footer div{
+        flex: 2;
+    }
+    
+    footer div:last-of-type{
+        flex: 1;
+    }
+    
+    
+    footer div h4{
+        font-size: 21px;
+        margin: 0 0 30px 15px;
+    }
+
+    footer div img {
+        width: 40px;
+        margin: 15px;
+    }
+}

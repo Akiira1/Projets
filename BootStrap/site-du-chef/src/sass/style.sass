@@ -1,0 +1,204 @@
+@import "./_variables"
+@import "./_icone"
+@import "./_fonts"
+@import "./_bootstrap"
+
+// header 
+header
+    background: linear-gradient(rgba(0, 0, 0, 0.938),rgba(0, 0, 0, 0.904)), url("../../public/img/banner1.jpg")
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    nav a:hover
+        background-color: $danger
+
+h1
+    font-family: courgette, sans-serif
+
+.text-courgette
+    font-family: courgette, sans-serif
+    font-size: 50px
+
+.carousel-indicators
+    button
+        width: 10px
+        border-radius: 50%
+
+
+.border-deco-bott
+    width:100%
+    height: 12px
+    background: url("../../public/img/bottom_decoration_img.png")
+    background-color: rgba(20, 20, 20, 0.897)
+    background-repeat: repeat-x
+
+
+@media screen and (max-width: 578px)
+.flex-nowrap
+    
+
+
+// section1 our story
+
+
+.bg-deco
+    background: url("../../public/img/main_bg.jpg")
+    background-position: center
+    i
+        font-size: 40px
+    .cont-bg-corner
+        position: relative
+        .corner-tl
+            position: absolute
+            top: 0px
+            left: 0px
+        .corner-tr
+            position: absolute
+            top: 0px
+            right: 0px
+        .corner-bl
+            position: absolute
+            bottom: 0px
+            left: 0px
+        .corner-br
+            position: absolute
+            bottom: 0px
+            right: 0px
+
+.button-size
+    font-size: 20px!important
+    padding: 5px!important
+
+
+.dotted-border1
+    border-top: 0
+    border-left: 0
+    border-right: 0
+    border-bottom: 2px solid lightgrey
+    border-style: dotted
+    span
+        font-weight: bold
+
+.col-3
+    text-align: center
+    img
+        border: 4px solid rgba(151, 151, 151, 0.973)
+
+
+.focus-red
+    &:focus
+        border-right: 4px solid $danger
+        color: $danger!important
+    
+
+
+// section2 our chefs
+
+.bg-chefs
+    background: url(../../public/img/team_background.jpg)
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+
+
+// section blog
+
+.cont-bg-corner2
+        position: relative
+        .corner-tl
+            position: absolute
+            top: 0px
+            left: 0px
+        .corner-tr
+            position: absolute
+            top: 0px
+            right: 0px
+        .corner-bl
+            position: absolute
+            bottom: 0px
+            left: 0px
+        .corner-br
+            position: absolute
+            bottom: 0px
+            right: 0px
+
+.bg-form
+    background: url("../../public/img/book_table_bg.jpg")
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    border-radius: 30px
+
+
+//section blog
+
+.bg-blog1
+    img
+        border: 4px solid lightgrey
+        border-radius: 15px
+    
+
+.bg-blog2
+    img
+        border: 4px solid lightgrey
+        border-radius: 15px
+
+.relative
+    position: relative
+    .blog-text
+        position: absolute
+        width: 90%
+        margin-left: 5%
+        top: 90%
+        border-radius: 15px
+        p
+            font-size: 13px
+            padding: 0 5%
+            span
+                font-size: 15px
+
+
+// section testimonial
+
+.bg-testi
+    background: url("../../public/img/testimonials_background.jpg")
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+
+
+// section contact
+
+.bg-contact
+    background: url("../../public/img/main_bg.jpg")
+    background-position: center
+
+
+.contact-border
+    margin: auto
+    margin-top: 3vw
+    margin-bottom: 3vw
+    border-radius: 25px
+    width: 25vw
+
+
+// footer
+
+.bg-footer
+    background: url("../../public/img/footer_background.jpg")
+    background-position: center
+    background-size: cover
+    padding: 0 0 0 0 
+
+
+
+.footer-red
+    height: 5vw
+    
+
+.border-deco-foot
+    width:100%
+    height: 12px
+    background: url("../../public/img/footer_bottom_decoration_img.png")
+    background-color: rgba(19, 19, 19, 0.979)
+    background-repeat: repeat-x

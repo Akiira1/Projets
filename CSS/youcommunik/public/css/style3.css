@@ -1,0 +1,219 @@
+
+body{
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+#shadow{
+    display: block;
+    width: max-content;
+    justify-content: center;
+    box-shadow:0px 5px 10px #1c1c1c;
+    margin-left: 100px;
+
+}
+
+h1,h2{
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.p-tt{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#sec-pr{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.logo-pr{
+    width: max-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.div-ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+li{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titre-pr{
+    background-color: steelblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+
+}
+
+.eclosion{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.eclo-titre{
+    color: white;
+    width: max-content;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.eclo-cont div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logos{
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color: wheat;
+    flex: 1;
+}
+.logos img{
+    width: 50%;
+    height: auto;
+}
+
+.evolution{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.evo-titre{
+    color: white;
+    width: max-content;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.evo-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logos2{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color: wheat;
+}
+.logos2 img{
+    width: 50%;
+    height: auto;
+}
+
+.envol{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.envol-titre{
+    color: white;
+    width: max-content;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.envol-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+.logos3{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color: wheat;
+}
+.logos3 img{
+    width: 50%;
+    height: auto;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+footer p{
+    color: white;
+}
+
+footer>div img{
+    width: 50px;
+    height: auto;
+}
+
+footer>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex: 1;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Mini-Projet-toDoList</title>
+    <link rel='stylesheet' href='./public/css/style.css'>
+</head>
+<body>
+
+    <main>
+        <div class="mainDiv">
+            <div class="mainAdd p-3">
+                <input id="input1" class="btn bg-light" type="text">
+                <button class="btn btn-primary"> +Add </button>
+            </div>
+            <h2 class="text-center text-primary m-3">Ma Todo List</h2>
+            <hr class="hr m-auto mb-3">
+            <div class="toDoButton">
+                <button id="done" class="btn btn-primary m-2">Done</button>
+                <button id="toDo" class="btn btn-danger m-2">ToDo</button>
+                <button id="all" class="btn btn-success m-2">All</button>
+            </div>
+            <!-- Liste taches -->
+            <div id="liste" class="contenuListe m-3">
+            </div>
+            <div class="clear">
+                <button id="clear" class="btn btn-danger mb-3">Clear List</button>
+
+            </div>
+        </div>
+    </main>
+
+    <script type='module' src='./public/js/main.js'></script>
+</body>
+</html>
+
+
